@@ -11,7 +11,7 @@ import Pattern as p
 
 def main():
         
-        print "Options: 1 for new blast search, 2 for pre-made .xml file. If you want to save copy of new blast search, uncomment beginning area to save and save_file.close"
+        print "Options: 1 for new blast search, 2 for pre-made .xml file. "
         option=raw_input()
         if option=='1':  
 		print "Type name of input .fasta file"
