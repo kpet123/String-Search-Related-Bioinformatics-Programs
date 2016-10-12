@@ -52,7 +52,7 @@ def main():
 
 	#variables referenced in entire loop
  	queryDescrList=p.listDef("./Folder-FASTA/CnaBquery.fasta")
-	iterator=0
+	iterator=0 #iterates through query parameters
         hitQueryList=[]##holds HitQuery objects
 	eboxlist=open("CnaBorder.txt", "r")#returns real eboxes in list
 
